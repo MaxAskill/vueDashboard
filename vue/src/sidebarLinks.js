@@ -5,6 +5,32 @@ export default [
     path: '/admin/overview'
   },
   {
+    name: 'Pull-Out Requisition',
+    icon: 'nc-icon nc-book-bookmark',
+    children: [
+      {
+        name: 'Timeline',
+        path: '/pages/timeline'
+      },
+      {
+        name: 'User Profile',
+        path: '/pages/user'
+      },
+      {
+        name: 'Login',
+        path: '/login'
+      },
+      {
+        name: 'Register',
+        path: '/register'
+      },
+      {
+        name: 'Lock',
+        path: '/lock'
+      }
+    ]
+  },
+  {
     name: 'Pages',
     icon: 'nc-icon nc-book-bookmark',
     children: [
@@ -121,21 +147,6 @@ export default [
   {
     name: 'Widgets',
     icon: 'nc-icon nc-box',
-    path: '/admin/widgets'
-  },
-  {
-    name: 'Charts',
-    icon: 'nc-icon nc-chart-bar-32',
-    path: '/charts'
-  },
-  {
-    name: 'Calendar',
-    icon: 'nc-icon nc-calendar-60',
-    path: '/calendar'
-  },
-  {
-    name: 'Pull-Out Requisition',
-    icon: 'nc-icon nc-single-copy-04',
     path: '/admin/widgets'
   },
   {
